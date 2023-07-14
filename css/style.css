@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(254, 215, 172, 255);
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 1em;
+  background-color: rgb(91, 12, 12);
+}
+.navigation img {
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+}
+.navigation ul {
+  display: flex;
+  column-gap: 3em;
+}
+.navigation ul li {
+  list-style: none;
+}
+.navigation ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+.navigation ul li a:hover {
+  color: rgb(159, 148, 148);
+}
+
+/* Home Section  */
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home img {
+  width: 600px;
+  height: 450px;
+  border-radius: 20px;
+}
+.home > div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  justify-content: center;
+}
+.home h1 {
+  font-size: 3em;
+  color: rgb(91, 12, 12);
+}
+.home button {
+  padding: 20px 40px;
+  border-radius: 40px;
+  border: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  background-color: rgb(91, 12, 12);
+  width: 70%;
+  color: white;
+}
+.tile {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  align-items: center;
+}
+.tile img {
+  width: 300px;
+  height: 250px;
+}
+.tile1,
+.tile2,
+.tile3 {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+}
+.tile button {
+  padding: 10px 10px;
+  background-color: rgb(91, 12, 12);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.tile button:hover{
+    background-color: rgb(126, 9, 9);
+}
+
+/* slagon section  */
+.slogan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray  ;
+    padding: 20px;
+    border-radius: 400px;
+}
+.slogan img{
+    width: 500px;
+    height: 400px;
+    border-radius: 500px;
+}
+.slogan > div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2em;
+}
+.slogan h1{
+    font-size: 2.5em;
+}
+.slogan p{
+    text-align: center;
+}
+.slogan button{
+    padding: 20px 10px;
+    background-color: rgb(91, 12, 12);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.slogan button:hover{
+    background-color: rgb(126, 9, 9);
+}
+.lastSection{
+    padding: 50px;
+}
+.lastSection div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    row-gap: 3em;
+    background-color: rgb(37, 37, 37);
+    padding: 0px 180px;
+}
+.lastSection img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.lastSection p{
+    color: white;
+    font-size: 1.2em;
+    text-align: center  ;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.location h1{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    text-align: center;
+    margin-bottom: .5em;
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    border-radius: 20px;
+}
+.location iframe{
+    width: 80%;
+    height: 200px;
+    border-radius: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.763);
+    color: white;
+}
+footer div{
+    width: 20%;
+    text-align: justify;
+}
+footer div h1{
+    border-bottom: 2px solid white;
+}
+footer .links{
+    display: flex;
+    margin-top: 1em;
+    column-gap: 1em;
+    cursor: pointer;
+    font-size: 1.5em;
+}
